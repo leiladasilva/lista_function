@@ -6,10 +6,16 @@
     */
 
     //Entrada
+    const p = Number(prompt(`qual seu peso`))
+    const a = Number(prompt(`qual sua altura`))
 
 
     //Processamento
-
+    function mensagem(){
+        alert(`o seu imc será ${p /(a * a)}`)
+    }
+let v = mensagem();
+document.write(v)
 
     //Saída
 
